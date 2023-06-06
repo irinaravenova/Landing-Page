@@ -25,8 +25,49 @@ h1 {
     color: #f9faf8;
 }
 
+ul {
+    gap: 30px;
+}
+
 li {
     font-size: 18px;
     color: #e5e7eb;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 400px;
+}
+
+.hero-section-1 {
+    width: 350px;
+}
+
+.hero-title{
+    font-size: 48px;
+}
+
+#hero-image {
+    width: 350px;
+    height: auto;
+}
+
+.hero-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px;
 }
