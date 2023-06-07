@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 body {
     height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
@@ -42,17 +44,17 @@ a {
 
 .hero {
     display: flex;
+    min-height: 450px;
     justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    height: 400px;
 }
 
 .hero-section-1 {
-    width: 350px;
+    width: 400px;
 }
 
 .hero-title{
@@ -60,7 +62,7 @@ a {
 }
 
 #hero-image {
-    width: 350px;
+    width: 400px;
     height: auto;
 }
 
@@ -71,3 +73,113 @@ a {
     border-style: none;
     padding: 5px 15px;
 }
+
+.info-cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 450px;
+    text-align: center;
+}
+
+.info-cards-title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px auto;
+    color: #1f2937;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    height: 225px;
+}
+
+.info-cards-container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 600px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.credit {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.call-to-action-section {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.cta-info {
+    max-width: 400px;
+}
+
+.cta-title {
+    color:#eee;
+    font-weight: bold;
+}
+
+.cta-text {
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.signup-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-color: #eee;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 15px;
+}
+
+.footer {
+
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
