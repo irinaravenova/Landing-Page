@@ -1,4 +1,4 @@
-#Landing Page project for The Odin Project.
+# Landing Page project for The Odin Project.
 
 Through completing this project, I solidified my understanding of common web layout practices using **flexbox** and other CSS principles (and got to practice fundamental **git** commands like _commits_, _stashing_, _undoing_, and _pushing_ to remote repository).
 
